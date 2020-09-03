@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map 
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+VMIDI	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+send_msg	KEYWORD2
+sendNoteOn	KEYWORD2
+sendNoteOff	KEYWORD2
+sendCtrlChange	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+BAUD KEYWORD3
+MIDI_MSG_NOTE_ON KEYWORD3
+MIDI_MSG_NOTE_OFF KEYWORD3
+MIDI_MSG_CTRL_CHANGE KEYWORD3

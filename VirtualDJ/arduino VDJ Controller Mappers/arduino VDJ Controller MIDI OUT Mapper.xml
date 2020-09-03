@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper device="arduino VDJ Controller MIDI OUT" version="830" date="2019-10-22">
+	<map value="deck_left_beat_1" action="deck left get_beat_num 1 4?on:off" />
+	<map value="deck_left_beat_2" action="deck left get_beat_num 2 4?on:off" />
+	<map value="deck_left_beat_3" action="deck left get_beat_num 3 4?on:off" />
+	<map value="deck_left_beat_4" action="deck left get_beat_num 4 4?on:off" />
+	
+	<map value="deck_right_beat_1" action="deck right get_beat_num 1 4?on:off" />
+	<map value="deck_right_beat_2" action="deck right get_beat_num 2 4?on:off" />
+	<map value="deck_right_beat_3" action="deck right get_beat_num 3 4?on:off" />
+	<map value="deck_right_beat_4" action="deck right get_beat_num 4 4?on:off" />
+</mapper>

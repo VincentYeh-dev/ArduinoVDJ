@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper device="arduino VDJ Controller MIDI IN" version="830" date="2019-10-22">
+	<map value="BUTTON-L0" action="deck left play_button" />
+	<map value="BUTTON-L1" action="deck left stop_button" />
+	<map value="BUTTON-L2" action="deck left sync" />
+	<map value="BUTTON-L3" action="deck left pitch_reset" />
+	<map value="BUTTON-L4" action="deck left loop_half" />
+	<map value="BUTTON-L5" action="deck left loop" />
+	<map value="BUTTON-L6" action="deck left loop_double" />
+	<map value="BUTTON-R0" action="deck right play_button" />
+	<map value="BUTTON-R1" action="deck right stop_button" />
+	<map value="BUTTON-R2" action="deck right sync" />
+	<map value="BUTTON-R3" action="deck right pitch_reset" />
+	<map value="BUTTON-R4" action="deck right loop_half" />
+	<map value="BUTTON-R5" action="deck right loop" />
+	<map value="BUTTON-R6" action="deck right loop_double" />
+	<map value="SLIDER-M0" action="crossfader" />
+	<map value="SLIDER-L0" action="deck left filter" />
+	<map value="SLIDER-R0" action="deck right filter" />
+</mapper>

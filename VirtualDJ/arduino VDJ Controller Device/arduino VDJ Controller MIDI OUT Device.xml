@@ -1,0 +1,12 @@
+<device name="arduino VDJ Controller MIDI OUT" author="VincentYeh" description="arduino VDJ Controller MIDI OUT" version="800" decks="2" type="MIDI" identifier ="#media#0000#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\tevmidi1" motor="no">
+<led note="0x00" name="deck_left_beat_1" channel="1"/>
+<led note="0x01" name="deck_left_beat_2" channel="1"/>
+<led note="0x02" name="deck_left_beat_3" channel="1"/>
+<led note="0x03" name="deck_left_beat_4" channel="1"/>
+
+<led note="0x04" name="deck_right_beat_1" channel="1"/>
+<led note="0x05" name="deck_right_beat_2" channel="1"/>
+<led note="0x06" name="deck_right_beat_3" channel="1"/>
+<led note="0x07" name="deck_right_beat_4" channel="1"/>
+
+</device>

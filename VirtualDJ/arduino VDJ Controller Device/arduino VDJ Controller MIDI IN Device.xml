@@ -1,0 +1,31 @@
+<device name="arduino VDJ Controller MIDI IN" author="VincentYeh" description="arduino VDJ Controller MIDI IN" version="800" decks="2" type="MIDI" identifier ="#media#0000#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\tevmidi0" motor="no">
+
+<button note="0x39" name="BUTTON-L0" channel="0" />
+<button note="0x3A" name="BUTTON-R0" channel="0" />
+
+<button note="0x3B" name="BUTTON-L1" channel="0" />
+<button note="0x3C" name="BUTTON-R1" channel="0" />
+
+<button note="0x3D" name="BUTTON-L2" channel="0" />
+<button note="0x3E" name="BUTTON-R2" channel="0" />
+
+<slider cc="0x3F" name="SLIDER-L0" channel="0"/>
+<slider cc="0x40" name="SLIDER-R0" channel="0"/>
+
+<button note="0x41" name="BUTTON-L3" channel="0" />
+<button note="0x42" name="BUTTON-R3" channel="0" />
+
+<button note="0x43" name="BUTTON-L4" channel="0" />
+<button note="0x44" name="BUTTON-R4" channel="0" />
+
+<button note="0x45" name="BUTTON-L5" channel="0" />
+<button note="0x46" name="BUTTON-R5" channel="0" />
+
+<button note="0x47" name="BUTTON-L6" channel="0" />
+<button note="0x48" name="BUTTON-R6" channel="0" />
+
+
+<slider cc="0x57" name="SLIDER-M0" channel="0"/>
+
+
+</device>
