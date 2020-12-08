@@ -62,36 +62,6 @@ void loop() {
   
 }
 
-
-/*
-  for (int i = 0; i < 3; i++) {
-  slide_values[i] = map(analogRead(sliders[i]), 0, 1023, 0, 127);
-  if (range(privious_slide_values[i], slide_values[i], 1) != privious_slide_values[i]) {
-  privious_slide_values[i] = slide_values[i];
-  if(!DEBUG)HardWare_MIDI.sendCtrlChange(0x55 + i, slide_values[i], 1);
-  }
-  }
-
-  for (int i = 0; i < 8; i++) {
-  select(i);
-  delayMicroseconds(1);
-  int btn_curr_value = digitalRead(5);
-  if(DEBUG)printChart(5*btn_curr_value+10*i);
-
-  if (privious_btn_values[i] != btn_curr_value) {
-  privious_btn_values[i] = btn_curr_value;
-  if (!btn_curr_value) {
-    if(!DEBUG)HardWare_MIDI.sendNoteOn(0x39 + i, 127, 1);
-
-  } else {
-    if(!DEBUG)HardWare_MIDI.sendNoteOff(0x39 + i, 0, 1);
-  }
-  }
-
-  }
-  if(DEBUG)Serial.println();
-*/
-
 void printChart(int val) {
   Serial.print(val);
   Serial.print(",");
